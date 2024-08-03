@@ -175,18 +175,81 @@ footer{
 
   div{
     display: flex;
-    gap: 0.2em;
+    gap: 0.3em;
     justify-content: center;
+    align-items: center;
   }
+}
+
+button{
+  background-color: #5c9eb6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+div.centeredcontainer{
+  margin: 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.long{
+  max-width: 660px;
+  line-height: 1.7;
+  margin-bottom: 2em;
+}
+
+i{
+  font-style: italic;
+}
+
+em{
+  font-weight: 600;
+}
+
+h2.sub{
+  font-size: 2rem;
+}
+
+ul.dot{
+  li{
+    border: none;
+    list-style-type: disc;
+    color: white
+  }
+}
+
+h2.spacetop{
+  margin-top: 1em;
 }
 
 @media (width <= 1250px) {
   li{
+
     a{
+
       img{
         width: 0;
       }
+
     }
+
   }
 
   html{
@@ -201,6 +264,22 @@ footer{
 
   footer{
     margin: 16% 0;
+  }
+
+  body{
+    margin: 10% 10% 0 10%;
+  }
+
+  button{
+    margin-top: 2%;
+  }
+
+  div.centeredcontainer{
+    margin-top: 8%;
+  }
+
+  iframe{
+    max-width: 100%;
   }
 }
 
