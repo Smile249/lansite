@@ -112,7 +112,7 @@ html {
 }
 
 body {
-  margin: 12% 20% 0 20%;
+  margin: 10% 20% 0 20%;
   line-height: 1.5;
 }
 
@@ -220,6 +220,9 @@ h2.sub {
   font-size: 2rem;
 }
 
+ul.dot {
+  margin-left: 2vw;
+}
 ul.dot li {
   border: none;
   list-style-type: disc;
@@ -227,7 +230,16 @@ ul.dot li {
 }
 
 h2.spacetop {
-  margin-top: 1em;
+  margin-top: 1.7rem;
+}
+
+li.last {
+  padding-bottom: 0;
+}
+
+.border-btm {
+  margin: 2em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 @media (width <= 1250px) {
