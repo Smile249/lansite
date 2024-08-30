@@ -140,6 +140,111 @@ li.last {
   font-size: small;
 }
 
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tab button:hover {
+  opacity: 0.6;
+}
+
+.tab button.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tabcontent {
+  display: none;
+  margin: 2vh 12px;
+  border-top: none;
+}
+.tabcontent h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.tabcontent iframe {
+  margin-top: 1.5vh;
+}
+
+.playlist-container {
+  display: flex;
+}
+
+.collapsible {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  transition: ease-in-out 0.12s;
+}
+
+.open, .collapsible:hover {
+  opacity: 0.6;
+  transition: ease-in 0.12s;
+}
+
+.download-btn figure {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  width: 30%;
+}
+
+.playlist img {
+  width: 15%;
+}
+
+.content {
+  padding: 0 3vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content img {
+  border-radius: 8px;
+}
+
+.map li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.map li a {
+  display: contents;
+}
+.map li img {
+  transition: ease-in 0.12s;
+}
+.map li a:hover img {
+  opacity: 0.6;
+  transition: ease-in 0.12s;
+}
+.map li img.genre {
+  border-radius: 0;
+  padding-top: 1vh;
+  width: 6.5vw;
+}
+
 @media (width <= 1250px) {
   li a img {
     width: 0;
@@ -170,6 +275,13 @@ li.last {
   }
   ul.dot {
     margin-left: 8vw;
+  }
+  .playlist img {
+    width: 35%;
+  }
+  img.map-link {
+    width: 80%;
+    height: 80%;
   }
 }
 
