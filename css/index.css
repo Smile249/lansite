@@ -277,11 +277,16 @@ li.last {
     margin-left: 8vw;
   }
   .playlist img {
-    width: 35%;
+    width: 20vw;
   }
-  img.map-link {
+  .map li img.genre {
+    width: 25vw;
+  }
+  .download-btn figure {
+    display: flex;
+    align-items: center;
+    gap: 1em;
     width: 80%;
-    height: 80%;
   }
 }
 

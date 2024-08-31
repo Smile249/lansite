@@ -332,13 +332,23 @@ li.last{
 
   .playlist{
     img{
-      width: 35%;
+      width: 20vw;
     }
   }
 
-  img.map-link{
-    width: 80%;
-    height: 80%;
+  .map li img.genre{
+    width: 25vw;
+  }
+
+  .download-btn{
+
+    figure{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      width: 80%;
+    }
+
   }
 }
 
