@@ -1,4 +1,6 @@
+![bel-logo](https://github.com/user-attachments/assets/3cf56932-be8b-4fad-a705-9fcc2eabb6a8)
 # Rhythm LAN website
+
 yippee it's open source!!
 
 
