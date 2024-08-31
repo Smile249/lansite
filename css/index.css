@@ -214,6 +214,11 @@ li.last {
   width: 15%;
 }
 
+h4 {
+  font-weight: 550;
+  color: #6ab7d1;
+}
+
 .content {
   padding: 0 3vw;
   max-height: 0;
