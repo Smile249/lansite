@@ -285,9 +285,73 @@ h4{
 
 }
 
+.notice, .info{
+  border: orange 3px solid;
+  border-radius: 8px;
+  background-color: rgba(154, 102, 0, 0.16);
+
+  padding: 0.8%;
+  display: flex;
+  gap: 1rem;
+
+  h2{
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  img{
+    width: 2vw;
+  }
+
+  margin-bottom: 2vh;
+}
+
+.info{
+  border: #4791F7 3px solid;
+  background-color: rgba(71, 145, 247, 0.16)
+}
+
+#playstyle{
+  p{
+    margin-top: 1vh;
+    max-width: 34vw;
+  }
+
+  ul{
+    margin-bottom: 2vh;
+  }
+
+  img{
+    margin-top: 2vh;
+  }
+}
+
+//color cycle animation
+
+.text-rainbow-animation {
+  background-image:
+          linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 500s linear infinite;
+}
+
+@keyframes rainbow-animation {
+  to {
+    background-position: 4500vh;
+  }
+}
+
 //Mobile
 
 @media (width <= 1250px) {
+  #pointsystem{
+    p{
+      margin-top: 2vh;
+      max-width: 100%;
+    }
+  }
+
   li{
 
     a{
@@ -354,6 +418,14 @@ h4{
       width: 80%;
     }
 
+  }
+
+  .notice, .info{
+    padding: 0.6em;
+
+    img{
+      width: 30vw;
+    }
   }
 }
 

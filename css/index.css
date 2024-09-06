@@ -250,7 +250,56 @@ h4 {
   width: 6.5vw;
 }
 
+.notice, .info {
+  border: orange 3px solid;
+  border-radius: 8px;
+  background-color: rgba(154, 102, 0, 0.16);
+  padding: 0.8%;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2vh;
+}
+.notice h2, .info h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.notice img, .info img {
+  width: 2vw;
+}
+
+.info {
+  border: #4791F7 3px solid;
+  background-color: rgba(71, 145, 247, 0.16);
+}
+
+#playstyle p {
+  margin-top: 1vh;
+  max-width: 34vw;
+}
+#playstyle ul {
+  margin-bottom: 2vh;
+}
+#playstyle img {
+  margin-top: 2vh;
+}
+
+.text-rainbow-animation {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 500s linear infinite;
+}
+
+@keyframes rainbow-animation {
+  to {
+    background-position: 4500vh;
+  }
+}
 @media (width <= 1250px) {
+  #pointsystem p {
+    margin-top: 2vh;
+    max-width: 100%;
+  }
   li a img {
     width: 0;
   }
@@ -292,6 +341,12 @@ h4 {
     align-items: center;
     gap: 1em;
     width: 80%;
+  }
+  .notice, .info {
+    padding: 0.6em;
+  }
+  .notice img, .info img {
+    width: 30vw;
   }
 }
 
