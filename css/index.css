@@ -274,7 +274,7 @@ h4 {
 
 #playstyle p {
   margin-top: 1vh;
-  max-width: 34vw;
+  max-width: 45vw;
 }
 #playstyle ul {
   margin-bottom: 2vh;
@@ -296,7 +296,7 @@ h4 {
   }
 }
 @media (width <= 1250px) {
-  #pointsystem p {
+  #playstyle p {
     margin-top: 2vh;
     max-width: 100%;
   }
