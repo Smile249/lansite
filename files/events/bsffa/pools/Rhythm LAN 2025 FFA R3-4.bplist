@@ -184,8 +184,8 @@
     },
     {
       "key": "3FB8C",
-      "hash": "DC5B5224BC5004014F19669246F2DD10ADB17B35",
-      "levelid": "custom_level_DC5B5224BC5004014F19669246F2DD10ADB17B35",
+      "hash": "F8CBCA933CCA09EA4C77AAB19C0EFCF01F1F81EA",
+      "levelid": "custom_level_F8CBCA933CCA09EA4C77AAB19C0EFCF01F1F81EA",
       "customData": {
         "name": "[V3] litmus* - Vibey-Vibey EX",
         "uploader": "dereknalox123"
@@ -238,7 +238,7 @@
       "difficulties": [
         {
           "characteristic": "Standard",
-          "name": "ExpertPlus"
+          "name": "Expert"
         }
       ]
     },

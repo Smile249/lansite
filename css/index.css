@@ -112,10 +112,10 @@ h2.sub {
   font-size: 2rem;
 }
 
-ul.dot {
+ul.dot, ol.dot {
   margin-left: 1.5vw;
 }
-ul.dot li {
+ul.dot li, ol.dot li {
   border: none;
   list-style-type: disc;
   color: white;
@@ -327,7 +327,7 @@ h4 {
   iframe {
     max-width: 100%;
   }
-  ul.dot {
+  ul.dot, ol.dot {
     margin-left: 8vw;
   }
   .playlist img {

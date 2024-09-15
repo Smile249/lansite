@@ -119,7 +119,7 @@ h2.sub{
   font-size: 2rem;
 }
 
-ul.dot{
+ul.dot, ol.dot{
   li{
     border: none;
     list-style-type: disc;
@@ -395,7 +395,7 @@ h4{
     max-width: 100%;
   }
 
-  ul.dot{
+  ul.dot, ol.dot{
     margin-left: 8vw;
   }
 
