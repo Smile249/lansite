@@ -207,7 +207,7 @@ li.last {
   display: flex;
   align-items: center;
   gap: 2em;
-  width: 30%;
+  width: 35%;
 }
 
 .playlist img {
@@ -264,7 +264,7 @@ h4 {
   font-size: 1.3rem;
 }
 .notice img, .info img {
-  width: 2vw;
+  width: 5.5%;
 }
 
 .info {
@@ -295,7 +295,7 @@ h4 {
     background-position: 4500vh;
   }
 }
-@media (width <= 1250px) {
+@media (width <= 620px) {
   #playstyle p {
     margin-top: 2vh;
     max-width: 100%;
@@ -340,7 +340,7 @@ h4 {
     display: flex;
     align-items: center;
     gap: 1em;
-    width: 80%;
+    width: 55vw;
   }
   .notice, .info {
     padding: 0.6em;
