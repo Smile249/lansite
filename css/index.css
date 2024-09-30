@@ -264,7 +264,7 @@ h4 {
   font-size: 1.3rem;
 }
 .notice img, .info img {
-  width: 5.5%;
+  width: 2.5vw;
 }
 
 .info {
@@ -293,6 +293,11 @@ h4 {
 @keyframes rainbow-animation {
   to {
     background-position: 4500vh;
+  }
+}
+@media (width <= 1200px) {
+  .notice img, .info img {
+    width: 5.5vw;
   }
 }
 @media (width <= 620px) {

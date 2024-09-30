@@ -300,7 +300,7 @@ h4{
   }
 
   img{
-    width: 5.5%;
+    width: 2.5vw;
   }
 
   margin-bottom: 2vh;
@@ -339,6 +339,18 @@ h4{
 @keyframes rainbow-animation {
   to {
     background-position: 4500vh;
+  }
+}
+
+//smaller screens (only info dialog thingy needed)
+
+@media (width <= 1200px){
+  .notice, .info{
+
+    img{
+      width: 5.5vw;
+    }
+
   }
 }
 
