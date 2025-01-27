@@ -71,6 +71,10 @@ footer div:nth-child(2) {
   gap: 0.4vw;
 }
 
+a {
+  color: #5c9eb6;
+}
+
 button {
   background-color: #5c9eb6; /* Green */
   border: none;
@@ -289,6 +293,16 @@ h4 {
 
 i {
   font-style: italic;
+}
+
+a > h3 {
+  text-decoration: none;
+  transition: ease-in 0.12s;
+}
+
+a > h3:hover {
+  opacity: 0.6;
+  transition: ease-in 0.12s;
 }
 
 .text-rainbow-animation {
