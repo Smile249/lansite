@@ -277,7 +277,7 @@ h4 {
 }
 
 #playstyle p {
-  margin-top: 1vh;
+  margin-top: 2vh;
   max-width: 45vw;
 }
 #playstyle ul {
@@ -285,6 +285,10 @@ h4 {
 }
 #playstyle img {
   margin-top: 2vh;
+}
+
+i {
+  font-style: italic;
 }
 
 .text-rainbow-animation {
