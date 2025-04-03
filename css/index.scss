@@ -365,6 +365,12 @@ a > h3:hover{
   }
 }
 
+//disable button style
+.disabledBtn{
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
 //smaller screens (only info dialog thingy needed)
 
 @media (width <= 1200px){
