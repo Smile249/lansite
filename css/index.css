@@ -304,6 +304,17 @@ a > h3:hover {
   transition: ease-in 0.12s;
 }
 
+#header2026 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#subtext2026 {
+  text-align: center;
+  margin: 2em auto;
+  font-size: 1.4rem;
+}
+
 .text-rainbow-animation {
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
   -webkit-background-clip: text;
